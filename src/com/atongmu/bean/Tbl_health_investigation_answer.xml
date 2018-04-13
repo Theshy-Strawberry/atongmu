@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.atongmu.bean.Tbl_health_investigation_answer" table="Tbl_health_investigation_answer" >
+     	<id name="open_id" column="open_id" type="java.lang.String">
+            <generator class="assigned"/>
+		</id>
+        <property name="goods_id" type="java.lang.Integer" column="goods_id"/>
+        <property name="reg_date" type="java.util.Date" column="reg_date"/>
+		<property name="answer1" type="java.lang.String" column="answer1"/>
+		<property name="answer2" type="java.lang.String" column="answer2"/>
+		<property name="answer3" type="java.lang.String" column="answer3"/>
+		<property name="answer4" type="java.lang.String" column="answer4"/>
+		<property name="answer5" type="java.lang.String" column="answer5"/>
+		<property name="answer6" type="java.lang.String" column="answer6"/>
+		<property name="answer7" type="java.lang.String" column="answer7"/>
+		<property name="answer8" type="java.lang.String" column="answer8"/>
+		<property name="answer9" type="java.lang.String" column="answer9"/>
+		<property name="answer10" type="java.lang.String" column="answer10"/>
+		<property name="answer11" type="java.lang.String" column="answer11"/>
+		<property name="answer12" type="java.lang.String" column="answer12"/>
+		<property name="answer13" type="java.lang.String" column="answer13"/>
+		<property name="answer14" type="java.lang.String" column="answer14"/>
+		<property name="answer15" type="java.lang.String" column="answer15"/>
+		<property name="answer16" type="java.lang.String" column="answer16"/>
+		<property name="answer17" type="java.lang.String" column="answer17"/>
+		<property name="answer18" type="java.lang.String" column="answer18"/>
+		<property name="answer19" type="java.lang.String" column="answer19"/>
+		<property name="answer20" type="java.lang.String" column="answer20"/>
+		<property name="answer21" type="java.lang.String" column="answer21"/>
+		<property name="answer22" type="java.lang.String" column="answer22"/>
+		<property name="answer23" type="java.lang.String" column="answer23"/>
+		<property name="answer24" type="java.lang.String" column="answer24"/>
+		<property name="answer25" type="java.lang.String" column="answer25"/>
+		<property name="answer26" type="java.lang.String" column="answer26"/>
+		<property name="answer27" type="java.lang.String" column="answer27"/>
+		<property name="answer28" type="java.lang.String" column="answer28"/>
+		<property name="answer29" type="java.lang.String" column="answer29"/>
+		<property name="answer30" type="java.lang.String" column="answer30"/>
+		<property name="advice" type="java.lang.String" column="advice"/>
+
+    </class>
+</hibernate-mapping>

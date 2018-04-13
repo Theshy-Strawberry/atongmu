@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.atongmu.bean.Tbl_health_info" table="tbl_health_info"  dynamic-update="true">
+     	<id name="open_id" column="open_id" type="java.lang.String">
+            <generator class="assigned"/>
+		</id>
+        <property name="reg_date" type="java.util.Date" column="reg_date"/>
+        <property name="height" type="java.lang.String" column="height"/>
+        <property name="weight" type="java.lang.String" column="weight"/>
+        <property name="BMI" type="java.lang.Double" column="BMI"/>
+        <property name="waist" type="java.lang.String" column="waist"/>
+        <property name="hipline" type="java.lang.String" column="hipline"/>
+        <property name="waist_to_hip_ratio" type="java.lang.Double" column="waist_to_hip_ratio"/>
+        <property name="low_blood_pressure" type="java.lang.String" column="low_blood_pressure"/>
+        <property name="high_blood_pressure" type="java.lang.String" column="high_blood_pressure"/>
+        <property name="fasting_blood_glucose" type="java.lang.String" column="fasting_blood_glucose"/>
+        <property name="triglyceride" type="java.lang.String" column="triglyceride"/>
+        <property name="total_cholesterol" type="java.lang.String" column="total_cholesterol"/>
+        <property name="hdl" type="java.lang.String" column="hdl"/>
+        <property name="ldl" type="java.lang.String" column="ldl"/>
+        <property name="other" type="java.lang.String" column="other"/>
+        <property name="ask1" type="java.lang.String" column="ask1"/>
+        <property name="ask2" type="java.lang.String" column="ask2"/>
+        <property name="ask3" type="java.lang.String" column="ask3"/>
+        <property name="ask4" type="java.lang.String" column="ask4"/>
+        <property name="ask5" type="java.lang.String" column="ask5"/>
+        <property name="ask6" type="java.lang.String" column="ask6"/>
+        <property name="ask7" type="java.lang.String" column="ask7"/>
+        <property name="ask8" type="java.lang.String" column="ask8"/>
+        <property name="ask9" type="java.lang.String" column="ask9"/>
+        <property name="ask10" type="java.lang.String" column="ask10"/>
+        <property name="ask11" type="java.lang.String" column="ask11"/>
+        <property name="ask12" type="java.lang.String" column="ask12"/>
+        <property name="ask13" type="java.lang.String" column="ask13"/>
+        <property name="ask14" type="java.lang.String" column="ask14"/>
+        <property name="ask15" type="java.lang.String" column="ask15"/>
+        <property name="ask16" type="java.lang.String" column="ask16"/>
+        <property name="ask17" type="java.lang.String" column="ask17"/>
+        <property name="ask18" type="java.lang.String" column="ask18"/>
+        <property name="ask19" type="java.lang.String" column="ask19"/>
+        <property name="ask20" type="java.lang.String" column="ask20"/>
+        <property name="ask21" type="java.lang.String" column="ask21"/>
+        <property name="ask22" type="java.lang.String" column="ask22"/>
+        <property name="ask23" type="java.lang.String" column="ask23"/>
+        <property name="ask24" type="java.lang.String" column="ask24"/>
+        <property name="ask25" type="java.lang.String" column="ask25"/>
+        <property name="ask26" type="java.lang.String" column="ask26"/>
+        <property name="ask27" type="java.lang.String" column="ask27"/>
+        <property name="ask28" type="java.lang.String" column="ask28"/>
+        <property name="ask29" type="java.lang.String" column="ask29"/>
+        <property name="ask30" type="java.lang.String" column="ask30"/>
+        <property name="ask31" type="java.lang.String" column="ask31"/>
+        <property name="ask32" type="java.lang.String" column="ask32"/>
+        <property name="ask33" type="java.lang.String" column="ask33"/>
+        <property name="ask34" type="java.lang.String" column="ask34"/>
+        <property name="ask35" type="java.lang.String" column="ask35"/>
+        <property name="ask36" type="java.lang.String" column="ask36"/>
+        <property name="ask37"  type="java.lang.String" column="ask37"/>
+        <property name="ask38"  type="java.lang.String" column="ask38"/>
+        <property name="ask39"  type="java.lang.String" column="ask39"/>
+        <property name="ask40"  type="java.lang.String" column="ask40"/>
+        <property name="ask41"  type="java.lang.String" column="ask41"/>
+        <property name="ask42"  type="java.lang.String" column="ask42"/>
+        <property name="ask43"  type="java.lang.String" column="ask43"/>
+        <property name="ask44"  type="java.lang.String" column="ask44"/>
+        <property name="ask45"  type="java.lang.String" column="ask45"/>
+    </class>
+</hibernate-mapping>

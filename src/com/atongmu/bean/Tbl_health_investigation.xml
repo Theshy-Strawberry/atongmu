@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.atongmu.bean.Tbl_health_investigation" table="tbl_health_investigation" >
+     	<id name="question_id" column="question_id" type="java.lang.Integer">
+            <generator class="identity"/>
+		</id>
+        <property name="goods_id" type="java.lang.Integer" column="goods_id"/>
+        <property name="question_type" type="java.lang.Integer" column="question_type"/>
+        <property name="flow_attibute" type="java.lang.Integer" column="flow_attibute"/>
+        <property name="question" type="java.lang.String" column="question"/>
+        <property name="option1" type="java.lang.String" column="option1"/>
+        <property name="option2" type="java.lang.String" column="option2"/>
+        <property name="option3" type="java.lang.String" column="option3"/>
+        <property name="option4" type="java.lang.String" column="option4"/>
+        <property name="option5" type="java.lang.String" column="option5"/>
+        <property name="option6" type="java.lang.String" column="option6"/>
+        <property name="option7" type="java.lang.String" column="option7"/>
+        <property name="option8" type="java.lang.String" column="option8"/>
+        <property name="option9" type="java.lang.String" column="option9"/>
+        <property name="option10" type="java.lang.String" column="option10"/>
+        <property name="option1_score" type="java.lang.Integer" column="option1_score"/>
+        <property name="option2_score" type="java.lang.Integer" column="option2_score"/>
+        <property name="option3_score" type="java.lang.Integer" column="option3_score"/>
+        <property name="option4_score" type="java.lang.Integer" column="option4_score"/>
+        <property name="option5_score" type="java.lang.Integer" column="option5_score"/>
+        <property name="option6_score" type="java.lang.Integer" column="option6_score"/>
+        <property name="option7_score" type="java.lang.Integer" column="option7_score"/>
+        <property name="option8_score" type="java.lang.Integer" column="option8_score"/>
+        <property name="option9_score" type="java.lang.Integer" column="option9_score"/>
+        <property name="option10_score" type="java.lang.Integer" column="option10_score"/>
+        
+    </class>
+</hibernate-mapping>

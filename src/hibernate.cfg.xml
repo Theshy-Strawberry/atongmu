@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+		<property name="show_sql">true</property>
+		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="connection.url">jdbc:mysql://120.26.77.96:19800/atongmu</property>
+		<property name="connection.username">atongmu</property>
+		<property name="connection.password">Atongmu@db</property>
+		<!--指定当前session范围和上下文 -->
+		<property name="current_session_context_class">thread</property>
+		<!--是否将运行期生成的SQL输出到日志以供调试 -->
+		<property name="show_sql">true</property>
+		<!--是否格式化SQL -->
+		<property name="format_sql">true</property>
+		<mapping resource="com/atongmu/bean/Tbl_health_info.hbm.xml"/>
+		<mapping resource="com/atongmu/bean/Tbl_health_investigation.xml"/>
+		<mapping resource="com/atongmu/bean/Tbl_health_investigation_answer.xml"/>
+
+	</session-factory>
+
+
+</hibernate-configuration>
+
